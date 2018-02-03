@@ -1,6 +1,7 @@
 <template>
-  <div>
-    欢迎
+  <div class="home">
+    <Button>欢迎1</Button>
+    <p>first</p>
   </div>
 </template>
 
@@ -14,6 +15,10 @@ export default {
 };
 </script>
 
-<style scoped>
-
+<style lang="less">
+  .home{
+    p{
+      color: red;
+    }
+  }
 </style>
